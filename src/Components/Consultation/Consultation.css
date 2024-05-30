@@ -1,0 +1,56 @@
+
+
+.consultation {
+  padding: 40px;
+  background-color: gainsboro;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.consultation h1 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+}
+
+.consultation-types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.consultation-type {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  flex: 1 1 calc(33.333% - 20px);
+  text-align: center;
+  transition: transform 0.3s;
+  max-width: 300px;
+}
+
+.consultation-type:hover {
+  transform: translateY(-10px);
+}
+
+.consultation-type img {
+  width: 100%;
+  height: auto;
+}
+
+.consultation-type h2 {
+  margin: 20px 0;
+  font-size: 1.5em;
+  color: orangered;
+}
+
+.consultation-type p {
+  padding: 15px;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #666;
+}

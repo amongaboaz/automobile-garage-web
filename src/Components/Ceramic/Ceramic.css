@@ -1,0 +1,77 @@
+.ceramic-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.ceramic-steps {
+  margin-top: 30px;
+}
+
+.ceramic-steps h2 {
+  text-align: center;
+}
+
+.step {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.card {
+  width: 45%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card p {
+  padding: 15px;
+}
+
+.ceramic-details {
+  margin-top: 50px;
+
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  color: black;
+  padding: 10px 20px;
+  z-index: 1000; 
+}
+
+.ceramic-details h2 {
+  text-align: center;
+}
+
+.advantages, .disadvantages {
+  margin-top: 20px;
+}
+
+.advantages ul, .disadvantages ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.advantages h3, .disadvantages h3 {
+  text-align: center;
+}
+
+.advantages li, .disadvantages li {
+  padding-left: 20px;
+  position: relative;
+  list-style: none;
+}
+

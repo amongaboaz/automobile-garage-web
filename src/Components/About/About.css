@@ -1,0 +1,95 @@
+/* src/Components/About/About.css */
+
+.about-container {
+    padding: 20px;
+    background-color: white;
+    color: black;
+    
+}
+
+.about-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-header h1 {
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+.about-header p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-services {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-services h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.car-cards {
+    padding: 20px;
+    margin-bottom: 100px;
+   
+}
+
+.car-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.car-card {
+    background-color:gainsboro;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    height: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.car-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.car-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.car-card p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.car-card button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.car-card button:hover {
+    background-color: black;
+}
+
+

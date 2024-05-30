@@ -1,0 +1,77 @@
+.ceramic-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ceramic-page h1 {
+  text-align: center;
+  color: #007BFF;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+}
+
+.ceramic-steps {
+  margin-bottom: 40px;
+}
+
+.ceramic-steps h2 {
+  text-align: center;
+  color: #0056b3;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.steps-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.step.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  max-width: 300px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.step.card:hover {
+  transform: scale(1.05);
+}
+
+.step.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.step.card p {
+  margin-top: 15px;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.ceramic-details h2 {
+  color: #0056b3;
+  margin-bottom: 15px;
+  font-size: 1.75em;
+}
+
+.ceramic-details ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.ceramic-details ul li {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}

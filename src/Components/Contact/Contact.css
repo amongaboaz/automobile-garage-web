@@ -1,0 +1,110 @@
+  .appointment-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    background: gainsboro;
+    padding-bottom: 2rem;
+  } 
+  .appointment-header p{
+    font-size: 20px;
+  }
+  .appointment-header h1{
+    font-size: 30px;
+  }
+
+.appointment-form,
+.contact-card {
+  flex: 1 1 48%; /* Flex-grow, flex-shrink, and flex-basis for 2-column layout */
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px; /* Optional: Adds space between the top of the container and the cards */
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  padding: 60px 0; /* Center align items within the form */
+}
+
+.form-group {
+  width: 100%; /* Ensure the form group takes full width */
+  margin-bottom: 1rem;
+}
+
+.form-group p {
+  font-size: 15px;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Ensure space between label and input */
+}
+
+.appointment-form input,
+.appointment-form textarea {
+  width: 60%; /* Ensure inputs take full width */
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  background:gainsboro; /* Ensure consistent font size */
+}
+
+.appointment-form textarea {
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+.appointment-form button {
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 1rem; /* Add margin-top for spacing */
+}
+
+.appointment-form button:hover {
+  background-color: black; /* Darken the hover color */
+}
+.contact-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 20px;
+}
+.contact-card h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+
+}
+
+.contact-card p {
+  margin-bottom: 0.5rem;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .appointment-content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .appointment-form,
+  .contact-card {
+    flex: 1 1 100%; /* Full width on smaller screens */
+    margin-top: 0; /* Remove top margin for smaller screens */
+  }
+}
