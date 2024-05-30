@@ -11,13 +11,17 @@ const Hero = () => {
         <a href="https://maps.app.goo.gl/LUW1MTxVTTBnrvM19" target="_blank" rel="noopener noreferrer">
           <button className="explore-button">Visit Us</button>
         </a>
-        <h2>SPEED <span>POWER</span> PERFORMANCE</h2>
+        <h2>SPEED <span>POWER</span>  PERFORMANCE</h2>
       </div>
     </div>
   );
 };
 
 export default Hero;
+
+
+
+
 
 
 
